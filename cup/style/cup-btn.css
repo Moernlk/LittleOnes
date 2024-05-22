@@ -1,0 +1,44 @@
+.cup-button
+{
+  
+  top: 35%;
+  left: 36%;
+  position: absolute;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+
+
+  border-color: red;
+
+
+
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid rgba(255, 255, 255, 0);
+  transform: rotate(90deg);
+
+
+ transition: border-bottom 0s;
+  
+}
+
+
+body:hover .cup-button
+{
+  
+  border-bottom: 100px rgba(255, 255, 255, 0.664);
+}
+
+.cup-button:hover
+{
+  border-bottom: 100px solid red;
+  cursor:pointer;
+}
+
+.cup-button:active
+{
+  border-bottom: 100px solid rgba(255, 255, 255, 0.37);
+}
