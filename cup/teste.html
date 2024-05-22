@@ -1,0 +1,64 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        min-width: 50px;
+        background: #607d8b;
+      }
+      .cup-button {
+        top: 35%;
+        left: 35%;
+        position: absolute;
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        border: solid red 1px;
+        border-radius: 2px;
+        width: 30%;
+        height: 29%;
+        border-left: transparent;
+        border-bottom: transparent;
+        z-index: 1;
+
+        transform: rotate(44deg);
+        background: 0;
+      }
+
+      .button {
+        border-color: red;
+        width: 0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 100px solid;
+        transform: rotate(90deg);
+        cursor: pointer;
+      }
+      .vertical-line {
+        position: relative;
+        min-height: 139%;
+        left: 0px;
+        top: -17.5px;
+        border: solid red 1px;
+        transform: rotate(-44deg);
+        border-bottom: transparent;
+        border-top: transparent;
+        border-left: transparent;
+      }
+    </style>
+  </head>
+  <body>
+    <!--div class="cup-button">
+    <div class="vertical-line"></div>
+  </div-->
+    <div class="button"></div>
+  </body>
+</html>
